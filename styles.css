@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  color: dimgrey;
+  font-family: 'Montserrat';
+}
+
+div#heading {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div#heading h1 {
+  text-align: center;
+}
+
+div#heading img {
+  width: 25%;
+}
+
+
+#visualizer-container {
+  padding: 10px 0 10px 0;
+
+  border: 1px solid dimgrey;
+
+  background-color: whitesmoke;
+}
+
+#passenger-data {
+  width: 330px;
+  height: 200px;
+  
+  padding: 10px;
+
+  border: 1px solid dimgrey;
+  border-radius: 5px;
+  
+  background-color: white;
+}
+
+
+#passenger-data h3 {
+  margin-top: 5px;
+
+  color: #892617
+}
+
+#visualizer-right-container button {
+  width: 33%;
+
+  color: #892617;
+}
+
+.btn-selected {
+  background-color: #892617;
+}
+
+#survival-graph-container {
+  margin: 10px 0 10px 0;
+
+  border: 1px solid dimgrey;
+  background-color: whitesmoke;
+}
+
+#survival-graph-container>div:first-of-type {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+  margin-left: -21%;
+  margin-bottom: 20px;
+}
+
+
+#age-graph-container,
+#fare-graph-container,
+#johns-graph-container {
+  margin: 10px 0 10px 0;
+  padding: 25px;
+
+  border: 1px solid dimgrey;
+  background-color: whitesmoke;
+}
+
+#age-graph-container>div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+#age-graph-container h2 {
+  color: #892617;
+}
+
+#age-graph-container>div>div p {
+  font-family: 'Montserrat';
+  display: block !important;
+}
